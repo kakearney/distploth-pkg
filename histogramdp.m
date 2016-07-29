@@ -1,11 +1,11 @@
-function [N,X,sp] = histogram(varargin)
+function [N,X,sp] = histogramdp(varargin)
 % HISTOGRAM generates a histogram using the "optimal" number of bins
 %
 % If called with no output argument, histogram plots into the current axes
 %
-% SYNOPSIS [N,X,sp] = histogram(data,factor,normalize)
-%          [...] = histogram(data,'smooth')
-%          [...] = histogram(axesHandle,...)
+% SYNOPSIS [N,X,sp] = histogramdp(data,factor,normalize)
+%          [...] = histogramdp(data,'smooth')
+%          [...] = histogramdp(axesHandle,...)
 %
 % INPUT    data: vector of input data
 %          factor: (opt) factor by which the bin-widths are multiplied
